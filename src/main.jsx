@@ -7,7 +7,7 @@ import { Store } from './app/Store.js'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <Provider store={Store}>
-    <App />
+        <App />
     </Provider>
  ,
 )

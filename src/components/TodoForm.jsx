@@ -8,7 +8,7 @@ function TodoForm() {
     const dispatch = useDispatch()
 
     const addTodoHandler = (e) => {
-        e.preventDefault()
+        e.preventDefault();
         if(input === '')return;
         dispatch(addTodo(input))
         setInput('')
